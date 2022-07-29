@@ -17,6 +17,7 @@ export const GifGrid = ({category}) => {
                 <GifGridItem 
                     key = {img.id}
                     {...img} //envia cada prop de img de forma independiente
+                    // es igual a hacer title= img.title; url =img.url; 
                 />
             ))
           
