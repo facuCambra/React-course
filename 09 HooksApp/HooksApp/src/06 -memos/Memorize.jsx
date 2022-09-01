@@ -1,12 +1,13 @@
 
 import {useCounter} from '../hooks/useCounter'
+import { Small } from './Small';
 export const Memorize = () => {
   
     const {counter , increment } = useCounter(10); 
   
     return (
         <> 
-            <h1> Counter: <small> {counter} </small></h1>
+            <h1> Counter: <Small value= {counter}/></h1>
             <hr />
 
             <button
